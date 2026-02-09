@@ -24,10 +24,31 @@
 }
 
 body {
-  width: 100dvw;
-  height: 100dvh;
   box-sizing: border-box;
   background-color: var(--clr3);
+}
+
+body > #root {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: content-box;
+}
+
+header {
+  width: 70%;
+  height: 50px;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+  background-color: var(--clr1);
 }
 
 .titleStyles {
@@ -46,4 +67,12 @@ body {
   font-family: var(--ff3);
   color: var(--clr4);
   font-size: 1rem;
+}
+
+.SectionStyle {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
