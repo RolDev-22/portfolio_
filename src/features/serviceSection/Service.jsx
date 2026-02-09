@@ -1,6 +1,6 @@
 export default function Service() {
   return (
-    <section className="SectionStyle">
+    <section className="sectionStyle">
       <h2 className="titleStyles">Services</h2>
     </section>
   );

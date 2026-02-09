@@ -1,0 +1,134 @@
+header {
+  width: 100%;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+}
+
+header .hamburger {
+  display: grid;
+  place-items: center;
+  width: 4rem;
+  height: 4rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  border: none;
+  border-radius: 0.2rem;
+  background-color: var(--clr6);
+  z-index: 3;
+}
+
+header .hamburger span {
+  justify-self: center;
+  width: var(--width);
+  height: 0.3rem;
+  border-radius: 0.2rem;
+  background-color: var(--clr4);
+}
+
+header nav {
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 0;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--clr6);
+  z-index: 2;
+  transition: all 0.3s ease-in-out;
+}
+
+header nav ul {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+header nav ul li {
+  width: 100%;
+  height: 3rem;
+  display: grid;
+  place-items: center;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+header nav ul li a {
+  color: var(--df);
+  text-decoration: none;
+}
+
+header.Active nav {
+  width: 100%;
+  height: 100vh;
+  opacity: 1;
+}
+
+@media screen and (min-width: 768px) {
+  header {
+    width: 90%;
+    height: 5rem;
+    justify-content: center;
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    background: var(--df);
+  }
+
+  header .hamburger {
+    display: none;
+  }
+
+  header nav {
+    position: relative;
+    opacity: 1;
+    height: 100%;
+    width: 100%;
+    background: none;
+  }
+
+  header nav ul {
+    flex-direction: row;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 0.2rem;
+    column-gap: 0.5rem;
+  }
+
+  header nav ul li {
+    background-color: var(--clr1);
+    border-radius: 0.5rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  header {
+    width: 70%;
+  }
+
+  header nav ul {
+    justify-content: space-evenly;
+  }
+
+  header nav ul li {
+    max-width: 150px;
+    transition: all 0.5s ease-in-out;
+  }
+}
+
+@media screen and (min-width: 1024px) and (orientation: landscape) {
+  header nav ul li:hover {
+    transform: scale(1.05);
+  }
+}
