@@ -1,0 +1,209 @@
+a {
+  text-decoration: none;
+}
+
+.heroStyle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5rem;
+  gap: 0.5rem;
+  background-image: url("/src/assets/bg-hero-1.webp");
+  background-position: right;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.titleStyles {
+  font-size: 1.8rem;
+  color: var(--clr1);
+  font-weight: 900;
+  font-family: var(--ff1);
+}
+
+.subtitleStyles {
+  font-size: 2.5rem;
+  color: var(--clr5);
+  font-family: var(--ff4);
+  font-weight: bolder;
+}
+
+.textStyles {
+  max-width: 300px;
+  font-size: 1.5rem;
+  color: var(clr4);
+  font-weight: 300;
+  font-family: var(--ff2);
+  text-align: center;
+}
+
+.topSection {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.topSection > div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.bottonSection {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+@media screen and (max-width: 900px) and (orientation: landscape) {
+  .heroStyle {
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .figurePers {
+    width: 450px;
+    height: 450px;
+  }
+
+  .titleStyles {
+    font-size: 2rem;
+  }
+
+  .subtitleStyles {
+    font-size: 2.8rem;
+  }
+
+  .textStyles {
+    font-size: 1.8rem;
+    max-width: 400px;
+  }
+}
+
+@media screen and (min-width: 768px) and (orientation: portrait) {
+  .heroStyle {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 2px;
+    justify-content: stretch;
+    align-items: stretch;
+    padding-top: 0;
+  }
+
+  .topSection {
+    grid-row: span 2 / span 2;
+    grid-column-start: 2;
+    grid-row-start: 2;
+    justify-content: end;
+    gap: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .topSection > div {
+    gap: 2rem;
+    padding-right: 1rem;
+  }
+
+  .bottonSection {
+    grid-row: span 2 / span 4;
+    grid-column-start: 1;
+    grid-row-start: 3;
+    justify-content: end;
+    padding-bottom: 3rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .heroStyle {
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas:
+      "left left rigth"
+      "left left rigth"
+      "left left rigth";
+    justify-content: stretch;
+    align-content: stretch;
+  }
+
+  .topSection {
+    grid-area: left;
+    gap: 5rem;
+  }
+
+  .topSection > div {
+    gap: 2rem;
+  }
+
+  .bottonSection {
+    margin-top: -4rem;
+    grid-area: rigth;
+  }
+
+  .figurePers {
+    width: 400px;
+    height: 400px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (orientation: portrait) {
+  .heroStyle {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+      "left left"
+      "rigth rigth";
+    justify-content: stretch;
+    align-items: stretch;
+  }
+
+  .topSection {
+    padding: 0;
+    justify-content: end;
+    margin: 0;
+    padding: 0;
+    gap: 3rem;
+  }
+
+  .topSection > div {
+    text-align: center;
+
+    align-items: end;
+  }
+
+  .bottonSection {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .titleStyles {
+    font-size: 2.5rem;
+  }
+
+  .subtitleStyles {
+    font-size: 3.2rem;
+  }
+
+  .textStyles {
+    font-size: 2.4rem;
+    max-width: 500px;
+  }
+
+  .figurePers {
+    width: 500px;
+    height: 500px;
+  }
+}

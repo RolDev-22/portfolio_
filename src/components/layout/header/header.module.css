@@ -73,7 +73,7 @@ header.Active nav {
   opacity: 1;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (orientation: portrait) {
   header {
     width: 90%;
     height: 5rem;
@@ -115,13 +115,40 @@ header.Active nav {
 @media screen and (min-width: 1024px) {
   header {
     width: 70%;
+    height: 5rem;
+    justify-content: center;
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    background: var(--df);
+  }
+
+  header .hamburger {
+    display: none;
+  }
+
+  header nav {
+    position: relative;
+    opacity: 1;
+    height: 100%;
+    width: 100%;
+    background: none;
   }
 
   header nav ul {
+    flex-direction: row;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 0.2rem;
+    column-gap: 0.5rem;
     justify-content: space-evenly;
   }
 
   header nav ul li {
+    background-color: var(--clr1);
+    border-radius: 0.5rem;
     max-width: 150px;
     transition: all 0.5s ease-in-out;
   }

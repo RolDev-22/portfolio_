@@ -35,6 +35,7 @@ body > #root {
   flex-direction: column;
   align-items: center;
   box-sizing: content-box;
+  overflow-x: hidden;
 }
 
 .titleStyles {
@@ -56,7 +57,7 @@ body > #root {
 }
 
 .sectionStyle {
-  width: 100%;
+  width: 100dvw;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -64,15 +65,77 @@ body > #root {
 }
 
 .btnStyle {
-  width: 70%;
+  max-width: 300px;
+  width: 80%;
   height: 4rem;
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   text-align: center;
   border-radius: 0.5rem;
   padding: 0.5rem;
+  gap: 1rem;
+  box-sizing: border-box;
   background: var(--clr2);
   color: var(--df);
-  border: none;
+  font-size: 2rem;
+  font-family: var(--ff2);
+  font-weight: bolder;
+  border: 2px outset var(--clr5);
+}
+
+.btnStyle figure {
+  display: grid;
+  place-items: center;
+  object-fit: contain;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.btnStyle figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.figureStyle {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  box-sizing: content-box;
+}
+
+.containerSocials {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.containerSocials a {
+  background: var(--clr5);
+  width: 2rem;
+  height: 2rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  box-sizing: content-box;
+}
+
+.imgStyle {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 1024px) and (orientation: landscape) {
+  .btnStyle figure {
+    transition: all 0.5s ease-in-out;
+  }
+
+  .btnStyle:hover figure {
+    transform: scale(1.1);
+  }
 }
