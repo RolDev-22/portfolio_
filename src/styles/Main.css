@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Jura:wght@300..700&family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  /**** Colors*/
+  --df: #ffffff;
+  --clr1: #3b82f6;
+  --clr2: #1e3a8a;
+  --clr3: #c3c3c3;
+  --clr4: #112a52;
+  --clr5: #2ac0fd;
+  --clr6: #acd7ff;
+
+  /**** Font */
+  --ff1: "Julius Sans One", sans-serif;
+  --ff2: "Jura", sans-serif;
+  --ff3: "K2D", sans-serif;
+  --ff4: "Montserrat Alternates", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: var(--ff2);
+}
+
+body {
+  width: 100dvw;
+  height: 100dvh;
+  box-sizing: border-box;
+  background-color: var(--clr3);
+}
+
+.titleStyles {
+  font-family: var(--ff1);
+  color: var(--clr2);
+  font-size: 2rem;
+}
+
+.subtitleStyles {
+  font-family: var(--ff2);
+  color: var(--clr1);
+  font-size: 1.5rem;
+}
+
+.textStyles {
+  font-family: var(--ff3);
+  color: var(--clr4);
+  font-size: 1rem;
+}
