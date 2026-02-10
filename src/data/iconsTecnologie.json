@@ -1,0 +1,68 @@
+{
+  "icons": [
+    {
+      "name": "HTML5",
+      "url": "icons/ic-Html5.svg"
+    },
+    {
+      "name": "CSS3",
+      "url": "icons/ic-Css3.svg"
+    },
+    {
+      "name": "JavaScript",
+      "url": "icons/ic-js.svg"
+    },
+    {
+      "name": "React",
+      "url": "icons/ic-react.svg"
+    },
+    {
+      "name": "NextJs",
+      "url": "icons/ic-Next.svg"
+    },
+    {
+      "name": "JQuery",
+      "url": "icons/ic-Jquery.svg"
+    },
+    {
+      "name": "Firebase",
+      "url": "icons/ic-FireBase.svg"
+    },
+    {
+      "name": "SQL Server",
+      "url": "icons/ic-SqlServ.svg"
+    },
+    {
+      "name": "Github",
+      "url": "icons/ic-github.svg"
+    },
+    {
+      "name": "Responsive Desing",
+      "url": "icons/ic-responsive.svg"
+    },
+    {
+      "name": "Figma",
+      "url": "icons/ic-figma.svg"
+    },
+    {
+      "name": "Canva",
+      "url": "icons/ic-canva.svg"
+    },
+    {
+      "name": "Jira",
+      "url": "icons/ic-jira.svg"
+    },
+    {
+      "name": "Pnpm",
+      "url": "icons/ic-Pmpm.svg"
+    },
+    {
+      "name": "JQ UI",
+      "url": "icons/ic-JqueyUi.svg"
+    },
+    {
+      "name": "Bootstrap",
+      "url": "icons/ic-bootstrap.svg"
+    }
+  ]
+}

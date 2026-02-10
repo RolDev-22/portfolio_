@@ -1,7 +1,6 @@
 import { lazy, Suspense } from "react";
 import Header from "@components/layout/header/Header";
 import Footer from "@components/layout/footer/Footer";
-import BtnComponent from "@/components/common/BtnComponent";
 
 const AboutSection = lazy(() => import("@features/aboutSection/About"));
 const ContactSection = lazy(() => import("@features/contactSection/Contact"));

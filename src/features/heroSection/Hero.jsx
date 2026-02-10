@@ -1,5 +1,4 @@
 import style from "./hero.module.css";
-import BtnComponent from "@components/common/BtnComponent";
 import IcCv from "@assets/ic-cv.svg";
 import Prfl from "@assets/prfl-hero.webp";
 import Git from "@assets/ic-git.svg";
@@ -37,7 +36,7 @@ export default function Hero() {
           />
         </figure>
         <article className="containerSocials">
-          <a href="#">
+          <a className="iconContainer" href="#">
             <img
               src={Git}
               alt="icono-github"
@@ -45,7 +44,7 @@ export default function Hero() {
               className="imgStyle"
             />
           </a>
-          <a href="#">
+          <a className="iconContainer" href="#">
             <img
               src={Linkd}
               alt="icono-linkedin"
@@ -53,7 +52,7 @@ export default function Hero() {
               className="imgStyle"
             />
           </a>
-          <a href="#">
+          <a className="iconContainer" href="#">
             <img
               src={Ml}
               alt="icono-corre"

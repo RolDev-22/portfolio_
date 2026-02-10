@@ -1,0 +1,22 @@
+{
+  "courses": [
+    {
+      "name": "Endpoint Segurity",
+      "badge": "/badge_Endpoin.png",
+      "url": "https://www.credly.com/badges/66440706-d488-4af7-a968-6fd7b04580a7/public_url",
+      "description": "Permite un amplio conocimiento de los conceptos básicos de seguridad de redes, así como de sistemas operativos y seguridad de terminales."
+    },
+    {
+      "name": "Introduction to Cybersegurity",
+      "badge": "/badge_Intro.png",
+      "url": "https://www.credly.com/badges/8d22a08f-064c-46a6-8248-683134c52bf0/public_url",
+      "description": "Permite un conocimientos introductorio a la ciberseguridad, incluidas las implicaciones globales de las amenazas cibernéticas en las industries."
+    },
+    {
+      "name": "Cyber Threat Management",
+      "badge": "/badge_Threat.png",
+      "url": "https://www.credly.com/badges/3f024da2-7b2b-4f30-8ee8-bc958bc00104/public_url",
+      "description": "Permite familiaridad con las políticas y la gobernanza de ciberseguridad para garantizar que una organización cumpla con los estándares legales."
+    }
+  ]
+}

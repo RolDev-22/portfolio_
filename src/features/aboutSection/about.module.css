@@ -1,0 +1,71 @@
+.personalCustumize {
+  row-gap: 2rem;
+  background: linear-gradient(-45deg, #acd7ff, #dbe9f6, #fff);
+}
+
+.top {
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1/2fr 1fr 1fr;
+  grid-template-areas:
+    "title"
+    "image"
+    "descrip";
+  padding: 0.5rem;
+}
+
+.top > article {
+  grid-area: title;
+  text-align: center;
+}
+
+.top > figure {
+  grid-area: image;
+}
+
+.top > p {
+  grid-area: descrip;
+  text-align: justify;
+}
+
+.top > p > a {
+  color: var(--clr2);
+}
+
+.botton {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.botton > h3 {
+  text-align: center;
+}
+
+.botton > section {
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .botton > .containerCourse {
+    justify-content: space-evenly;
+  }
+
+  .top {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1/2fr 1/2fr;
+    grid-template-areas:
+      "image title"
+      "descrip descrip";
+    padding: 0.5rem;
+    background-color: green;
+  }
+}

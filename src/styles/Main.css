@@ -42,6 +42,7 @@ body > #root {
   font-family: var(--ff1);
   color: var(--clr2);
   font-size: 2rem;
+  font-weight: bolder;
 }
 
 .subtitleStyles {
@@ -57,11 +58,9 @@ body > #root {
 }
 
 .sectionStyle {
-  width: 100dvw;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  min-width: 100dvw;
+  min-height: 100vh;
+  display: grid;
 }
 
 .btnStyle {
@@ -115,7 +114,7 @@ body > #root {
   padding: 0.5rem;
 }
 
-.containerSocials a {
+.iconContainer {
   background: var(--clr5);
   width: 2rem;
   height: 2rem;
