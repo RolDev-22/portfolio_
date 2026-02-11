@@ -20,28 +20,28 @@ const Header = () => {
       </button>
       <nav>
         <ul>
-          <li>
-            <a href="#" onClick={toggleMenu}>
+          <li className="zoomEffect">
+            <a className="textStyles" href="#" onClick={toggleMenu}>
               Inicio
             </a>
           </li>
-          <li>
-            <a href="#" onClick={toggleMenu}>
+          <li className="zoomEffect">
+            <a className="textStyles" href="#" onClick={toggleMenu}>
               Sobre
             </a>
           </li>
-          <li>
-            <a href="#" onClick={toggleMenu}>
+          <li className="zoomEffect">
+            <a className="textStyles" href="#" onClick={toggleMenu}>
               Servicios
             </a>
           </li>
-          <li>
-            <a href="#" onClick={toggleMenu}>
+          <li className="zoomEffect">
+            <a className="textStyles" href="#" onClick={toggleMenu}>
               Proyectos
             </a>
           </li>
-          <li>
-            <a href="#" onClick={toggleMenu}>
+          <li className="zoomEffect">
+            <a className="textStyles" href="#" onClick={toggleMenu}>
               Contacto
             </a>
           </li>

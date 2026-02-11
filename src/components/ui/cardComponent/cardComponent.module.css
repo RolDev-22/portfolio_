@@ -19,8 +19,8 @@
 }
 
 .containerCard .fig {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
 }
 
 .containerCard > a {
@@ -31,12 +31,26 @@
   border-radius: 0.5rem;
   background-color: var(--clr6);
   color: var(--clr4);
-  transition: all 0.5s ease-in-out;
 }
 
 @media screen and (min-width: 768px) {
   .containerCard {
-    max-width: 200px;
+    max-width: 220px;
+    row-gap: 0.5rem;
+  }
+
+  .containerCard > h4 {
+    font-size: 1rem;
+    font-weight: 100;
+  }
+
+  .containerCard > h2 {
+    font-size: 1.5rem;
+  }
+
+  .containerCard .fig {
+    min-width: 100px;
+    min-height: 100px;
   }
 }
 
@@ -46,7 +60,6 @@
   }
 
   .containerCard > a:hover {
-    transform: scale(1.05);
     background: var(--clr5);
   }
 }

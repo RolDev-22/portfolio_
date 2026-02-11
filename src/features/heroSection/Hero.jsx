@@ -10,17 +10,22 @@ export default function Hero() {
     <section className={`${style.heroStyle} sectionStyle`}>
       <section className={`${style.topSection}`}>
         <div className="information">
-          <h1 className={`${style.titleStyles}`}>Rolando Murillo</h1>
-          <h2 className={`${style.subtitleStyles}`}>Web Dveloper</h2>
-          <p className={`${style.textStyles}`}>
+          <h1 className={`${style.titleStyles} subtitleStyles`}>
+            Rolando Murillo
+          </h1>
+          <h2 className={`${style.subtitleStyles} titleStyles`}>
+            Web Developer
+          </h2>
+          <p className={`${style.textStyles} textStyles`}>
             Construyendo soluciones, con código limpio
           </p>
         </div>
         <a
           href="@assets/CV.pdf"
           download={"CV-Rolando Murillo"}
-          className="btnStyle">
-          <figure>
+          area-label="Descargar Curriculum"
+          className="btnStyle zoomEffect">
+          <figure className="zoomEffect">
             <img src={IcCv} alt="Logo descargar" />
           </figure>
           <span>Currículum</span>
@@ -36,28 +41,31 @@ export default function Hero() {
           />
         </figure>
         <article className="containerSocials">
-          <a className="iconContainer" href="#">
+          <a className="iconContainer zoomEffect" href="#">
             <img
+              title="Icono Github"
               src={Git}
-              alt="icono-github"
+              alt="Icono Github"
               loading="lazy"
-              className="imgStyle"
+              className="imgStyle zoomEffect"
             />
           </a>
-          <a className="iconContainer" href="#">
+          <a className="iconContainer zoomEffect" href="#">
             <img
+              title="Icono Linkedin "
               src={Linkd}
-              alt="icono-linkedin"
+              alt="Icono Linkedin"
               loading="lazy"
-              className="imgStyle"
+              className="imgStyle zoomEffect"
             />
           </a>
-          <a className="iconContainer" href="#">
+          <a className="iconContainer zoomEffect" href="#">
             <img
+              title="Icono correo"
               src={Ml}
-              alt="icono-corre"
+              alt="Icono corre"
               loading="lazy"
-              className="imgStyle"
+              className="imgStyle zoomEffect"
             />
           </a>
         </article>

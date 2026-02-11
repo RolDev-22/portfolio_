@@ -25,7 +25,7 @@ export default function About() {
           Hola! Soy Rolando, desarrollador web en constante formación, buscando
           oportunidades y creando soluciones digitalez modernas y adaptables,
           durante mi formación profesional en la{" "}
-          <strong>Universidad de Costa Rica</strong>
+          <strong>Universidad de Costa Rica </strong>
           adquirí conocimientos en todo lo que respecta al ciclo de vida del
           desarrollo de software, además de habilidades en bases de datos,
           gestion de redes y proyectos, echa un vistaso a mis proyectos (

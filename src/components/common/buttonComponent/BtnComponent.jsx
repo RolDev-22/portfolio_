@@ -1,6 +1,6 @@
 const BtnMenu = ({ icon, text }) => {
   return (
-    <button className="btnStyle" aria-label="Menu Button">
+    <button className="btnStyle zoomEffect" aria-label="Menu Button">
       {icon ? <figure>{icon}</figure> : ""}
       <span>{text}</span>
     </button>

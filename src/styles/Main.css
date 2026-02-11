@@ -121,6 +121,7 @@ body > #root {
   padding: 0.5rem;
   border-radius: 0.5rem;
   box-sizing: content-box;
+  transition: all 0.5s ease-in-out;
 }
 
 .imgStyle {
@@ -129,12 +130,50 @@ body > #root {
   object-fit: cover;
 }
 
-@media screen and (min-width: 1024px) and (orientation: landscape) {
-  .btnStyle figure {
+@media screen and (min-width: 768px) {
+  .figureStyle {
+    min-width: 450px;
+    min-height: 450px;
+  }
+
+  .titleStyles {
+    font-size: 3rem;
+  }
+
+  .subtitleStyles {
+    font-size: 2.5rem;
+  }
+
+  .textStyles {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .figureStyle {
+    min-width: 350px;
+    min-height: 350px;
+  }
+
+  .zoomEffect {
     transition: all 0.5s ease-in-out;
   }
 
-  .btnStyle:hover figure {
-    transform: scale(1.1);
+  .zoomEffect:hover {
+    transform: scale(1.05);
+  }
+}
+
+@media screen and (min-width: 1024px) and (orientation: portrait) {
+  .figureStyle {
+    min-width: 600px;
+    min-height: 600px;
+  }
+}
+
+@media screen and (min-width: 1320px) {
+  .figureStyle {
+    min-width: 600px;
+    min-height: 600px;
   }
 }

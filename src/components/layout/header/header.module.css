@@ -63,7 +63,6 @@ header nav ul li {
 }
 
 header nav ul li a {
-  color: var(--df);
   text-decoration: none;
 }
 
@@ -150,12 +149,5 @@ header.Active nav {
     background-color: var(--clr1);
     border-radius: 0.5rem;
     max-width: 150px;
-    transition: all 0.5s ease-in-out;
-  }
-}
-
-@media screen and (min-width: 1024px) and (orientation: landscape) {
-  header nav ul li:hover {
-    transform: scale(1.05);
   }
 }
