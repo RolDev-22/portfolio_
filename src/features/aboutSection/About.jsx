@@ -10,7 +10,7 @@ export default function About() {
   const { courses } = dataCourse;
 
   return (
-    <section className={`${styles.personalCustumize} sectionStyle`}>
+    <section className={`${styles.custumize} sectionStyle`}>
       <section className={`${styles.top}`}>
         <article>
           <h2 className="titleStyles">Sobre Mi</h2>

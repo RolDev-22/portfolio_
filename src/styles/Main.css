@@ -176,4 +176,17 @@ body > #root {
     min-width: 600px;
     min-height: 600px;
   }
+
+  .titleStyles {
+    font-size: 4rem;
+  }
+
+  .subtitleStyles {
+    font-size: 3rem;
+  }
+
+  .textStyles {
+    min-width: 550px;
+    font-size: 2rem;
+  }
 }

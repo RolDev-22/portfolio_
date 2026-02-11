@@ -1,0 +1,78 @@
+.constumize {
+  overflow: hidden;
+  position: relative;
+  background: linear-gradient(45deg, #acd7ff, #dbe9f6, #fff);
+  z-index: 0;
+}
+
+.constumize::after {
+  content: "";
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  left: -3rem;
+  bottom: -7rem;
+  border-radius: 50%;
+  background: var(--clr4);
+  z-index: -1;
+}
+
+.constumize::before {
+  content: "";
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  right: -10rem;
+  top: -1rem;
+  border-radius: 50%;
+  background: var(--clr4);
+  z-index: -1;
+}
+
+.constumize .containerTitle > h2 {
+  margin: 2rem;
+}
+
+.constumize .containerTitle > h3 {
+  width: 90%;
+  text-align: center;
+  color: var(--clr5);
+}
+
+@media screen and (min-width: 768px) {
+  .constumize::after {
+    width: 500px;
+    height: 500px;
+  }
+  .constumize::before {
+    right: -15rem;
+    top: -3rem;
+    width: 700px;
+    height: 700px;
+  }
+}
+@media screen and (min-width: 320px) and (orientation: landscape) {
+  .constumize::after {
+    left: -5rem;
+    bottom: -20rem;
+  }
+  .constumize::before {
+    right: -20rem;
+    top: -3rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .constumize::after {
+    .constumize::after {
+      width: 700px;
+      height: 700px;
+    }
+  }
+  .constumize::before {
+    right: -25rem;
+    top: -3rem;
+    width: 900px;
+    height: 900px;
+  }
+}

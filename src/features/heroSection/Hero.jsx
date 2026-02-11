@@ -10,12 +10,10 @@ export default function Hero() {
     <section className={`${style.heroStyle} sectionStyle`}>
       <section className={`${style.topSection}`}>
         <div className="information">
-          <h1 className={`${style.titleStyles} subtitleStyles`}>
+          <h1 className={`${style.subtitleStyles} subtitleStyles`}>
             Rolando Murillo
           </h1>
-          <h2 className={`${style.subtitleStyles} titleStyles`}>
-            Web Developer
-          </h2>
+          <h2 className={`${style.titleStyles} titleStyles`}>Web Developer</h2>
           <p className={`${style.textStyles} textStyles`}>
             Construyendo soluciones, con código limpio
           </p>

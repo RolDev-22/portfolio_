@@ -18,6 +18,10 @@
   text-align: center;
 }
 
+.containerCard > h4 {
+  font-weight: 100;
+}
+
 .containerCard .fig {
   width: 150px;
   height: 150px;
@@ -36,6 +40,7 @@
 @media screen and (min-width: 768px) {
   .containerCard {
     max-width: 220px;
+    min-height: 400px;
     row-gap: 0.5rem;
   }
 
@@ -61,5 +66,16 @@
 
   .containerCard > a:hover {
     background: var(--clr5);
+  }
+}
+
+@media screen and (min-width: 1320px) {
+  .containerCard {
+    min-width: 400px;
+    box-sizing: content-box;
+  }
+
+  .containerCard h4 {
+    min-width: 100%;
   }
 }

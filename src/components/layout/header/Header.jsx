@@ -21,27 +21,27 @@ const Header = () => {
       <nav>
         <ul>
           <li className="zoomEffect">
-            <a className="textStyles" href="#" onClick={toggleMenu}>
+            <a href="#" onClick={toggleMenu}>
               Inicio
             </a>
           </li>
           <li className="zoomEffect">
-            <a className="textStyles" href="#" onClick={toggleMenu}>
+            <a href="#" onClick={toggleMenu}>
               Sobre
             </a>
           </li>
           <li className="zoomEffect">
-            <a className="textStyles" href="#" onClick={toggleMenu}>
+            <a href="#" onClick={toggleMenu}>
               Servicios
             </a>
           </li>
           <li className="zoomEffect">
-            <a className="textStyles" href="#" onClick={toggleMenu}>
+            <a href="#" onClick={toggleMenu}>
               Proyectos
             </a>
           </li>
           <li className="zoomEffect">
-            <a className="textStyles" href="#" onClick={toggleMenu}>
+            <a href="#" onClick={toggleMenu}>
               Contacto
             </a>
           </li>
