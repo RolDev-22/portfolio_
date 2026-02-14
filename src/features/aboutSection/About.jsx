@@ -2,8 +2,8 @@ import styles from "./about.module.css";
 import ImgAvt from "@assets/prfl-about.png";
 import IconComp from "@ui/iconComponent/iconComponent.jsx";
 import CardComp from "@ui/cardComponent/cardComponent.jsx";
-import dataIcons from "@data/iconsTecnologie.json";
-import dataCourse from "@data/infoCourse.json";
+import dataIcons from "@data/dataTecnologie.json";
+import dataCourse from "@data/dataCourse.json";
 
 export default function About() {
   const { icons } = dataIcons;
@@ -34,7 +34,7 @@ export default function About() {
       </section>
       <section className={`${styles.botton}`}>
         <h3 className="subtitleStyles">Tecnologías y Herramientas</h3>
-        <section className={`${styles.containerIcons}`}>
+        <section className={`${styles.containerIcons} underlinedEffect`}>
           {icons.map((item) => (
             <IconComp name={item.name} url={item.url} />
           ))}

@@ -1,0 +1,118 @@
+.customize {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 0.5rem;
+  overflow: hidden;
+}
+
+.containerCarrusel {
+  max-width: 270px;
+  display: grid;
+  place-items: center;
+  padding: 0.5rem;
+  overflow: hidden;
+}
+
+.slideContainer {
+  width: max-content;
+  display: flex;
+  flex-direction: row;
+  gap: 2.5rem;
+  height: max-content;
+  transition: transform 0.5s ease-in-out;
+  width: 100%;
+}
+
+.customize .btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  min-height: 4.5rem;
+  min-width: 3rem;
+  bottom: 15rem;
+  position: absolute;
+  z-index: 2;
+  font-size: 3rem;
+  box-sizing: content-box;
+  border: none;
+  background: transparent;
+  transition: all 0.5s ease-in-out;
+}
+
+.customize .btn::before,
+.customize .btn::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 0.5rem;
+  top: 0;
+  right: 0;
+  border-radius: 1rem;
+  background-color: var(--clr1);
+}
+
+.customize .btnLeft {
+  left: 0;
+}
+
+.customize .btnLeft::before {
+  transform: rotate(45deg) translateY(2.3rem) translateX(1.9rem);
+}
+
+.customize .btnLeft::after {
+  transform: rotate(-45deg) translateY(0.5rem) translateX(-1rem);
+}
+
+.customize .btnRight {
+  right: 0;
+}
+
+.customize .btnRight::before {
+  transform: rotate(-45deg) translateY(2.3rem) translateX(-1.8rem);
+}
+
+.customize .btnRight::after {
+  transform: rotate(45deg) translateY(0.5rem) translateX(1rem);
+}
+
+@media screen and (min-width: 768px) {
+  .customize .btn {
+    bottom: 10;
+  }
+
+  .customize .btnLeft {
+    left: 1rem;
+  }
+  .customize .btnRight {
+    right: 1rem;
+  }
+
+  .containerCarrusel {
+    max-width: 700px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .customize .btnRight:hover,
+  .customize .btnLeft:hover {
+    transform: scale(1.05);
+  }
+
+  .containerCarrusel {
+    padding: 1rem;
+  }
+
+  .containerCarrusel {
+    max-width: 980px;
+  }
+}
+
+@media screen and (min-width: 1320px) {
+  .containerCarrusel {
+    max-width: 1200px;
+  }
+}

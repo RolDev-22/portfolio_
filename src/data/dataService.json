@@ -1,0 +1,24 @@
+{
+  "services": [
+    {
+      "name": "Desarrollo Web",
+      "badge": "/img_web.png",
+      "description": "Soluciones web modernas, funcionales y memorables. Desarrollo estratégico de sitios web con diseño visual moderno, navegación intuitiva y tecnología actual. Cada proyecto se adapta a las necesidades del cliente, combinando estética, rendimiento y escalabilidad. Ideal para quienes buscan destacar su presencia digital, conectar con su audiencia y convertir visitas en resultados. Integración responsiva, optimización y experiencia de usuario."
+    },
+    {
+      "name": "Diseño Gráfico",
+      "badge": "/img_dsg.png",
+      "description": "Diseño gráfico que comunica, emociona y transforma. Creación de piezas visuales impactantes, alineadas con la identidad de cada proyecto y sus objetivos estratégicos, desde logotipos hasta materiales educativos o promocionales, cada diseño combina estética, claridad y funcionalidad, busca destacar con estilo y coherencia visual, una propuesta creativa que convierte ideas en imágenes memorables, listas para conectar con cualquier audiencia."
+    },
+    {
+      "name": "Desarrollo Movil",
+      "badge": "/img_mvl.png",
+      "description": "Aplicaciones móviles que conectan y resuelven. Desarrollo ágil y personalizado, con interfaces intuitivas, optimizadas y diseño atractivo, cada app se construye pensando en la experiencia del usuario, la escalabilidad y los objetivos del cliente, ideal para personas que buscan funcionalidad, impacto y eficiencia desde el bolsillo. Integración con bases de datos, notificaciones, formularios inteligentes y lógica robusta para tareas específicas."
+    },
+    {
+      "name": "Optimización / Mantenimiento",
+      "badge": "/img_opmzcn.png",
+      "description": "Mantenimiento web que asegura rendimiento, seguridad y continuidad, optimización técnica y visual para mejorar velocidad, accesibilidad y experiencia del usuario en todos los dispositivos. Actualización constante de contenidos, corrección de errores y ajustes estratégicos según las necesidades del proyecto."
+    }
+  ]
+}
