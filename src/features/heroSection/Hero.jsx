@@ -7,7 +7,7 @@ import Ml from "@assets/ic-mail.svg";
 
 export default function Hero() {
   return (
-    <section className={`${style.heroStyle} sectionStyle`}>
+    <section id="home" className={`${style.heroStyle} sectionStyle`}>
       <section className={`${style.topSection}`}>
         <div className="information">
           <h1 className={`${style.subtitleStyles} subtitleStyles`}>

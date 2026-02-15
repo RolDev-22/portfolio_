@@ -5,7 +5,7 @@ import dataServices from "@data/dataService.json";
 export default function Service() {
   const services = dataServices.services || [];
   return (
-    <section className={`${styles.constumize} sectionStyle`}>
+    <section id="services" className={`${styles.constumize} sectionStyle`}>
       <section className={styles.containerTitle}>
         <h2 className="titleStyles">Services</h2>
         <h3 className="textStyles">

@@ -33,7 +33,8 @@ header nav {
   position: absolute;
   width: 0;
   height: 0;
-  top: 0;
+  top: -100%;
+  left: -100%;
   opacity: 0;
   display: flex;
   justify-content: center;
@@ -72,6 +73,8 @@ header nav ul li a {
 header.Active nav {
   width: 100%;
   height: 100vh;
+  top: 0;
+  left: 0;
   opacity: 1;
 }
 
@@ -96,6 +99,8 @@ header.Active nav {
     opacity: 1;
     height: 100%;
     width: 100%;
+    top: 0;
+    left: 0;
     background: none;
   }
 
@@ -135,6 +140,8 @@ header.Active nav {
     opacity: 1;
     height: 100%;
     width: 100%;
+    top: 0;
+    left: 0;
     background: none;
   }
 

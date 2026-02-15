@@ -10,7 +10,7 @@ export default function About() {
   const { courses } = dataCourse;
 
   return (
-    <section className={`${styles.custumize} sectionStyle`}>
+    <section id="about" className={`${styles.custumize} sectionStyle`}>
       <section className={`${styles.top}`}>
         <article>
           <h2 className="titleStyles">Sobre Mi</h2>
@@ -35,15 +35,16 @@ export default function About() {
       <section className={`${styles.botton}`}>
         <h3 className="subtitleStyles">Tecnologías y Herramientas</h3>
         <section className={`${styles.containerIcons} underlinedEffect`}>
-          {icons.map((item) => (
-            <IconComp name={item.name} url={item.url} />
+          {icons.map((item, index) => (
+            <IconComp key={index} name={item.name} url={item.url} />
           ))}
         </section>
 
         <h3 className="subtitleStyles">Cursos Obtenidos</h3>
         <section className={`${styles.containerCourse}`}>
-          {courses.map((item) => (
+          {courses.map((item, index) => (
             <CardComp
+              key={index}
               title={item.name}
               badge={item.badge}
               description={item.description}
