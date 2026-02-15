@@ -46,6 +46,7 @@
 .specialId {
   width: 250px;
   background-color: var(--df);
+  box-shadow: none;
 }
 
 .specialId img {

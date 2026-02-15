@@ -1,6 +1,6 @@
 import style from "./hero.module.css";
 import IcCv from "@assets/ic-cv.svg";
-import Prfl from "@assets/prfl-hero.webp";
+import Prfl from "/prfl-hero.webp";
 import Git from "@assets/ic-git.svg";
 import Linkd from "@assets/ic-link.svg";
 import Ml from "@assets/ic-mail.svg";
@@ -31,12 +31,7 @@ export default function Hero() {
       </section>
       <section className={`${style.bottonSection}`}>
         <figure className={`${style.figurePers} figureStyle`}>
-          <img
-            src={Prfl}
-            alt="Image Perfil"
-            loading="lazy"
-            className="imgStyle"
-          />
+          <img src={Prfl} alt="Image Perfil" className="imgStyle" />
         </figure>
         <article className="containerSocials">
           <a className="iconContainer zoomEffect" href="#">
@@ -44,7 +39,6 @@ export default function Hero() {
               title="Icono Github"
               src={Git}
               alt="Icono Github"
-              loading="lazy"
               className="imgStyle zoomEffect"
             />
           </a>
@@ -53,7 +47,6 @@ export default function Hero() {
               title="Icono Linkedin "
               src={Linkd}
               alt="Icono Linkedin"
-              loading="lazy"
               className="imgStyle zoomEffect"
             />
           </a>
@@ -61,8 +54,7 @@ export default function Hero() {
             <img
               title="Icono correo"
               src={Ml}
-              alt="Icono corre"
-              loading="lazy"
+              alt="Icono correo"
               className="imgStyle zoomEffect"
             />
           </a>

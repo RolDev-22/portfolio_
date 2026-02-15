@@ -17,7 +17,10 @@
   --ff4: "Montserrat Alternates", sans-serif;
 }
 
-* {
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: var(--ff2);
@@ -27,6 +30,14 @@
 body {
   box-sizing: border-box;
   background-color: var(--clr3);
+}
+
+body main {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 body > #root {
@@ -58,8 +69,15 @@ body > #root {
   font-size: 1rem;
 }
 
+.titleStyles,
+.subtitleStyles,
+.textStyles {
+  text-rendering: optimizeLegibility;
+  font-display: swap;
+}
+
 .sectionStyle {
-  min-width: 100dvw;
+  min-width: 100%;
   min-height: 100dvh;
   display: grid;
 }
@@ -145,6 +163,27 @@ body > #root {
   box-shadow: 0px 5px 5px var(--clr4);
 }
 
+.loadingContainer {
+  width: 100vw;
+  content: "";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(-45deg, #acd7ff, #dbe9f6, #fff);
+  z-index: 9999;
+}
+
+.loadingSpinner {
+  content: "";
+  border: 8px solid #f3f3f3;
+  border-top: 8px solid var(--clr5);
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  animation: spin 1s linear infinite;
+}
+
 @media screen and (min-width: 768px) {
   .figureStyle {
     min-width: 450px;
@@ -203,5 +242,14 @@ body > #root {
   .textStyles {
     min-width: 550px;
     font-size: 2rem;
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
   }
 }

@@ -9,7 +9,7 @@ a {
   align-items: center;
   padding-top: 5rem;
   gap: 0.5rem;
-  background-image: url("/src/assets/bg-hero-1.webp");
+  background-image: url("/bg-hero-1.webp");
   background-position: right;
   background-size: cover;
   background-repeat: no-repeat;

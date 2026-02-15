@@ -1,5 +1,5 @@
 import styles from "./about.module.css";
-import ImgAvt from "@assets/prfl-about.png";
+import ImgAvt from "/prfl-about.png";
 import IconComp from "@ui/iconComponent/iconComponent.jsx";
 import CardComp from "@ui/cardComponent/cardComponent.jsx";
 import dataIcons from "@data/dataTecnologie.json";
