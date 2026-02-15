@@ -76,6 +76,10 @@
 }
 
 @media screen and (min-width: 1024px) {
+  .constumize {
+    padding-top: 5rem;
+  }
+
   .constumize::after {
     .constumize::after {
       width: 700px;
