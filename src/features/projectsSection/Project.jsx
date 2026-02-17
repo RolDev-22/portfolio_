@@ -5,7 +5,7 @@ import dataProjects from "@data/dataProject.json";
 export default function Project() {
   const { projects } = dataProjects;
   return (
-    <section id="proyects" className={`${styles.customize} sectionStyle`}>
+    <section id="proyects" className={`${styles.projectStyle} sectionStyle`}>
       <section className={styles.containerTitle}>
         <h2 className="titleStyles">Proyectos</h2>
         <h3 className="subtitleStyles">

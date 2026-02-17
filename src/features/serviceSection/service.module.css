@@ -1,4 +1,4 @@
-.constumize {
+.serviceStyle {
   overflow: hidden;
   position: relative;
   background: linear-gradient(45deg, #acd7ff, #dbe9f6, #fff);
@@ -8,7 +8,7 @@
   z-index: 0;
 }
 
-.constumize::after {
+.serviceStyle::after {
   content: "";
   position: absolute;
   width: 300px;
@@ -20,7 +20,7 @@
   z-index: -1;
 }
 
-.constumize::before {
+.serviceStyle::before {
   content: "";
   position: absolute;
   width: 400px;
@@ -32,17 +32,17 @@
   z-index: -1;
 }
 
-.constumize .containerTitle > h2 {
+.serviceStyle .containerTitle > h2 {
   margin: 2rem;
 }
 
-.constumize .containerTitle > h3 {
+.serviceStyle .containerTitle > h3 {
   width: 90%;
   text-align: center;
   color: var(--clr5);
 }
 
-.constumize .containerCarrusel {
+.serviceStyle .containerCarrusel {
   width: 100%;
   min-height: 400px;
   padding: 0.5rem;
@@ -53,11 +53,11 @@
 }
 
 @media screen and (min-width: 768px) {
-  .constumize::after {
+  .serviceStyle::after {
     width: 500px;
     height: 500px;
   }
-  .constumize::before {
+  .serviceStyle::before {
     right: -15rem;
     top: -3rem;
     width: 700px;
@@ -65,28 +65,28 @@
   }
 }
 @media screen and (min-width: 320px) and (orientation: landscape) {
-  .constumize::after {
+  .serviceStyle::after {
     left: -5rem;
     bottom: -20rem;
   }
-  .constumize::before {
+  .serviceStyle::before {
     right: -20rem;
     top: -3rem;
   }
 }
 
 @media screen and (min-width: 1024px) {
-  .constumize {
+  .serviceStyle {
     padding-top: 5rem;
   }
 
-  .constumize::after {
-    .constumize::after {
+  .serviceStyle::after {
+    .serviceStyle::after {
       width: 700px;
       height: 700px;
     }
   }
-  .constumize::before {
+  .serviceStyle::before {
     right: -25rem;
     top: -3rem;
     width: 900px;

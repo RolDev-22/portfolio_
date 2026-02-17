@@ -1,0 +1,86 @@
+.socialComponent {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.socialComponent a {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.5rem;
+}
+
+.figStyle {
+  display: grid;
+  place-items: center;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  width: 3rem;
+  height: 3rem;
+  background-color: var(--clr5);
+}
+
+.textActive {
+  width: 100%;
+  flex-direction: column;
+}
+
+.textActive .figStyle {
+  width: 4rem;
+  height: 4rem;
+}
+
+.spanStyle {
+  color: white;
+  font-size: 1rem;
+  color: var(--df);
+  font-family: var(--ff4);
+  font-weight: bolder;
+}
+
+@media screen and (min-width: 768px) {
+  .figStyle {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .textActive {
+    gap: 1rem;
+  }
+
+  .textActive a {
+    padding-left: 4rem;
+    justify-content: flex-start;
+  }
+
+  .textActive a {
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  .spanStyle {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 1024px) and (orientation: landscape) {
+  .textActive a {
+    padding-left: 0;
+    gap: 0.5rem;
+  }
+
+  .spanStyle {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .spanStyle {
+    font-size: 1.5rem;
+  }
+}

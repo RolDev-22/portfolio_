@@ -1,0 +1,83 @@
+.sectionStyle {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  justify-content: stretch;
+  align-items: stretch;
+}
+
+.containerLinks {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background-image:
+    linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/im-contact.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.contactInfo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem;
+  box-sizing: border-box;
+  background-color: var(--clr4);
+}
+
+.contactInfoSection {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactInfoSection h2 {
+  color: var(--clr5);
+}
+
+.contactInfoSection h3 {
+  max-width: 90%;
+  font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+  .contactInfoSection h3 {
+    max-width: 95%;
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) and (orientation: landscape) {
+  .sectionStyle {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: stretch;
+    min-height: 100vh;
+    height: auto;
+  }
+
+  .stlShared {
+    width: 50%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    box-sizing: border-box;
+  }
+
+  .containerLinks {
+    justify-content: center;
+  }
+}

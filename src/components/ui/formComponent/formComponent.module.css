@@ -1,0 +1,88 @@
+.formComponent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 300px;
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--clr4);
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(2px) brightness(1);
+  box-shadow: 0px 0px 10px 5px var(--clr6);
+}
+.formComponent div {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.formComponent div label {
+  font-size: 2rem;
+  color: var(--clr5);
+  font-family: var(--ff2);
+}
+
+.formComponent div .shared {
+  width: 100%;
+  min-height: 3rem;
+  padding: 0.5rem;
+  background: var(--clr6);
+  border: none;
+  border-radius: 0.3rem;
+  color: var(--df);
+  font-family: var(--ff2);
+  font-size: 1.5rem;
+  outline: none;
+  box-shadow: 0px 0px 15px 5px var(--clr4);
+  transition: all 0.3s ease;
+}
+
+.formComponent div .shared:focus {
+  box-shadow: 0px 0px 10px var(--clr5);
+}
+
+.formComponent div .shared::placeholder {
+  color: var(--clr1);
+}
+
+.formComponent button {
+  min-width: 50%;
+  background: var(--clr5);
+  color: var(--df);
+  font-family: var(--ff2);
+  font-weight: bold;
+  min-height: 2.5rem;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+@media (min-width: 768px) {
+  .formComponent {
+    min-width: 600px;
+    gap: 2.5rem;
+  }
+
+  .formComponent button {
+    min-height: 3.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .formComponent {
+    min-width: 450px;
+  }
+
+  .formComponent button:hover {
+    background: var(--clr6);
+    color: var(--clr5);
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px var(--clr5);
+  }
+}

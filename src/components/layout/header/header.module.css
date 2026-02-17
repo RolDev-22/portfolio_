@@ -138,7 +138,7 @@ header.Active nav {
   header nav {
     position: relative;
     opacity: 1;
-    height: 100%;
+    max-height: max-content;
     width: 100%;
     top: 0;
     left: 0;

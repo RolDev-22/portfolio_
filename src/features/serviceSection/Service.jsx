@@ -1,11 +1,11 @@
 import styles from "./service.module.css";
-import CarruComp from "@ui/carruselComponent/carruselComponent.jsx";
+import CarruComp from "@/components/ui/carruselComponent/CarruselComponent.jsx";
 import dataServices from "@data/dataService.json";
 
 export default function Service() {
   const services = dataServices.services || [];
   return (
-    <section id="services" className={`${styles.constumize} sectionStyle`}>
+    <section id="services" className={`${styles.serviceStyle} sectionStyle`}>
       <section className={styles.containerTitle}>
         <h2 className="titleStyles">Services</h2>
         <h3 className="textStyles">
