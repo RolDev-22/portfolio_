@@ -1,13 +1,6 @@
 import style from "./hero.module.css";
 import IcCv from "@assets/ic-cv.svg";
 import Prfl from "/prfl-hero.webp";
-{
-  /*
-import Git from "@assets/ic-git.svg";
-import Linkd from "@assets/ic-link.svg";
-import Ml from "@assets/ic-mail.svg";
-*/
-}
 import SocialComp from "@common/socialComponent/SocialComponent";
 
 export default function Hero() {
@@ -38,34 +31,6 @@ export default function Hero() {
         <figure className={`${style.figurePers} figureStyle`}>
           <img src={Prfl} alt="Image Perfil" className="imgStyle" />
         </figure>
-        {/*
-        <article className="containerSocials">
-          <a className="iconContainer zoomEffect" href="#">
-            <img
-              title="Icono Github"
-              src={Git}
-              alt="Icono Github"
-              className="imgStyle zoomEffect"
-            />
-          </a>
-          <a className="iconContainer zoomEffect" href="#">
-            <img
-              title="Icono Linkedin "
-              src={Linkd}
-              alt="Icono Linkedin"
-              className="imgStyle zoomEffect"
-            />
-          </a>
-          <a className="iconContainer zoomEffect" href="#">
-            <img
-              title="Icono correo"
-              src={Ml}
-              alt="Icono correo"
-              className="imgStyle zoomEffect"
-            />
-          </a>
-        </article>
-*/}
         <SocialComp styleClass="" />
       </section>
     </section>

@@ -42,6 +42,7 @@ const CarruselCom = ({ data }) => {
                 description={item.description}
                 classId="specialId"
                 textBtn="Contactame"
+                url="#contact"
               />
             ))
           ) : (

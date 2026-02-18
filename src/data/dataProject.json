@@ -8,6 +8,13 @@
       "urlPage": "https://portafolio-dev-iota.vercel.app/"
     },
     {
+      "title": "Portfolio Profesional v2",
+      "tecnologics": ["JS", "CSS", "HTML", "React"],
+      "description": "Desarrollo de interfaz de usuario de alta fidelidad utilizando el ecosistema de React. El proyecto se centra en la optimización del lado del cliente, utilizando estructuras de datos estáticas para un renderizado veloz y EmailJS para garantizar una comunicación eficiente. Se priorizó la semántica de HTML5 y las capacidades modernas de CSS",
+      "urlGit": "https://github.com/RolDev-22/portfolio_",
+      "urlPage": ""
+    },
+    {
       "title": "Page Taller",
       "tecnologics": ["React", "CSS3", "HTML5"],
       "description": "Aplicación web desarrollada con React + Vite, empleando HTML5 y CSS3 para la construcción de la interfaz., ofreciendo una solución moderna, ligera y escalable. En la misma se integra el uso de mapas interactivos con Leaflet, permitiendo a los usuarios visualizar ubicaciones de talleres de manera dinámica. El proyecto se enfoca en la experiencia del usuario",
@@ -21,7 +28,6 @@
       "urlGit": "https://github.com/RolDev-22/to-do-react",
       "urlPage": "https://to-do-react-lemon.vercel.app/"
     },
-
     {
       "title": "Calculator App",
       "tecnologics": ["JS", "CSS", "HTML"],

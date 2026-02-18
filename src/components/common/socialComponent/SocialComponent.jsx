@@ -7,7 +7,7 @@ const SocialComp = ({ styleClass }) => {
   return (
     <article
       className={`${styles.socialComponent} ${styleClass ? styles[styleClass] : ""}`}>
-      <a href="#">
+      <a href="https://github.com/RolDev-22" target="_blanck">
         <figure className={`${styles.figStyle}`}>
           <img src={Git} alt="logo git" className="imgStyle zoomEffect" />
         </figure>
@@ -16,7 +16,7 @@ const SocialComp = ({ styleClass }) => {
         ) : null}
       </a>
 
-      <a href="#">
+      <a href="https://www.linkedin.com/in/rolando-ma/" target="_blanck">
         <figure className={`${styles.figStyle}`}>
           <img
             src={Linked}
@@ -29,7 +29,7 @@ const SocialComp = ({ styleClass }) => {
         ) : null}
       </a>
 
-      <a href="#">
+      <a href="mailto:rolandomurilloaguirre22@gmail.com" target="_blanck">
         <figure className={`${styles.figStyle}`}>
           <img src={Mail} alt="logo email" className="imgStyle zoomEffect" />
         </figure>

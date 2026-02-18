@@ -4,5 +4,50 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: red;
+  background: var(--clr6);
+  padding: 0.5rem;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+}
+
+.fig {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.top h4 {
+  font-family: var(--ff1);
+  color: var(--clr4);
+  font-size: 2rem;
+}
+
+.footer span {
+  text-align: center;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  color: var(--clr4);
+}
+
+@media (min-width: 768px) {
+  .top {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .top h3 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .top h3 {
+    max-width: 500px;
+  }
 }

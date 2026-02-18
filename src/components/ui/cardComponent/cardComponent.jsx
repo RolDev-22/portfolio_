@@ -10,6 +10,7 @@ const cardComp = ({
   classId = "",
   textBtn = "Ver Más",
   textBtn2 = "",
+  areaLabel = "Description Tarjet",
 }) => {
   return (
     <article
@@ -34,9 +35,9 @@ const cardComp = ({
       <section className={styles.containerBtn}>
         <a
           className="zoomEffect"
-          area-label="Ir al sitio del curso"
+          area-label={areaLabel}
           href={url ? url : ""}
-          target={url ? "_blank" : "_self"}
+          target={url.includes("contact") ? "_self" : "_blank"}
           rel="noopener noreferrer">
           {textBtn}
         </a>

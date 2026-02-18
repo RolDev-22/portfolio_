@@ -36,7 +36,7 @@ const Header = () => {
             </a>
           </li>
           <li className="zoomEffect">
-            <a href="#proyects" onClick={toggleMenu}>
+            <a href="#projects" onClick={toggleMenu}>
               Proyectos
             </a>
           </li>

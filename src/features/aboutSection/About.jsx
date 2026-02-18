@@ -29,7 +29,7 @@ export default function About() {
           adquirí conocimientos en todo lo que respecta al ciclo de vida del
           desarrollo de software, además de habilidades en bases de datos,
           gestion de redes y proyectos, echa un vistaso a mis proyectos (
-          <a href="#">Ver Proyectos</a>)
+          <a href="#projects">Ver Proyectos</a>)
         </p>
       </section>
       <section className={`${styles.botton}`}>

@@ -10,6 +10,7 @@ const FormComp = () => {
           id="name"
           type="text"
           placeholder="Ingrese su nombre"
+          autoComplete="off"
         />
       </div>
       <div>
@@ -19,6 +20,7 @@ const FormComp = () => {
           id="email"
           type="email"
           placeholder="Ejmp@dominio.com"
+          autoComplete="off"
         />
       </div>
       <div>
@@ -26,7 +28,8 @@ const FormComp = () => {
         <textarea
           className={style.shared}
           id="message"
-          placeholder="Escriba su mensaje"></textarea>
+          placeholder="Escriba su mensaje"
+          autoComplete="off"></textarea>
       </div>
       <button type="submit">Enviar</button>
     </form>
