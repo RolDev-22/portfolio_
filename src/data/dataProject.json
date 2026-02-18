@@ -12,7 +12,7 @@
       "tecnologics": ["JS", "CSS", "HTML", "React"],
       "description": "Desarrollo de interfaz de usuario de alta fidelidad utilizando el ecosistema de React. El proyecto se centra en la optimización del lado del cliente, utilizando estructuras de datos estáticas para un renderizado veloz y EmailJS para garantizar una comunicación eficiente. Se priorizó la semántica de HTML5 y las capacidades modernas de CSS",
       "urlGit": "https://github.com/RolDev-22/portfolio_",
-      "urlPage": ""
+      "urlPage": "https://portfolio-rj5c.vercel.app/"
     },
     {
       "title": "Page Taller",
