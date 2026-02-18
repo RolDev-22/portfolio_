@@ -1,5 +1,5 @@
 import styles from "./project.module.css";
-import CardComp from "@/components/ui/cardComponent/cardComponent";
+import CardComp from "@/components/ui/cardComponent/CardComponent";
 import dataProjects from "@data/dataProject.json";
 
 export default function Project() {
