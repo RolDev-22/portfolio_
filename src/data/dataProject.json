@@ -26,14 +26,14 @@
       "tecnologics": ["React", "CSS3", "HTML5"],
       "description": "Aplicación de lista de tareas desarrollada con React para practicar el manejo de estados y eventos. Se implementan componentes funcionales, hooks como useState y useEffect, y lógica en JavaScript puro para operaciones básicas. El proyecto permite agregar, eliminar y marcar tareas, con enfoque en modularidad y buenas prácticas.",
       "urlGit": "https://github.com/RolDev-22/to-do-react",
-      "urlPage": "https://to-do-react-lemon.vercel.app/"
+      "urlPage": "https://roldev-22.github.io/to-do-react/"
     },
     {
       "title": "Calculator App",
       "tecnologics": ["JS", "CSS", "HTML"],
       "description": "Este proyecto consiste en una calculadora funcional desarrollada con JavaScript puro, orientada a fortalecer habilidades iniciales en desarrollo web. La aplicación implementa: Captura dinámica de datos del usuario mediante eventos del navegador (click, input), sin frameworks externos. Manipulación directa del DOM para actualizar la interfaz",
       "urlGit": "https://github.com/RolDev-22/Calculadora_JS",
-      "urlPage": "https://calculadora-js-livid-delta.vercel.app/"
+      "urlPage": "https://roldev-22.github.io/Calculadora_JS/"
     }
   ]
 }
