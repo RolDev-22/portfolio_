@@ -1,4 +1,4 @@
-import styles from "./Project.module.css";
+import styles from "./project.module.css";
 import CardComp from "@/components/ui/cardComponent/cardComponent";
 import dataProjects from "@data/dataProject.json";
 

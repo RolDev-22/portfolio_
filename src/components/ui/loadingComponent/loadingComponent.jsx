@@ -1,5 +1,3 @@
-//import styles from "./loadingComponent.module.css";
-
 const LoadingComp = () => {
   return (
     <div className="loadingContainer">

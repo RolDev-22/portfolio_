@@ -1,5 +1,5 @@
 import styles from "./carruselComponent.module.css";
-import CardComp from "../cardComponent/cardComponent";
+import CardComp from "@ui/cardComponent/cardComponent";
 import { useState } from "react";
 
 const CarruselCom = ({ data }) => {
